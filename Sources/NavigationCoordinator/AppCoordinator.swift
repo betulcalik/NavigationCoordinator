@@ -14,7 +14,7 @@ open class AppCoordinator<Tab: Hashable>: ObservableObject {
         self.selectedTab = initialTab
     }
 
-    func switchTab(to tab: Tab) {
+    public func switchTab(to tab: Tab) {
         selectedTab = tab
     }
 }
