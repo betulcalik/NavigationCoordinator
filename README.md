@@ -160,6 +160,9 @@ struct SettingsView: View {
 }
 ```
 
+## Example
+For a complete implementation using NavigationCoordinator, including tab and stack-based navigation, view the full example in [Example.swift](https://github.com/betulcalik/NavigationCoordinator/blob/main/Sources/Example/Example.swift)
+
 ## Requirements
 - iOS 16.0+
 
