@@ -8,7 +8,7 @@
 import SwiftUI
 
 open class AppCoordinator<Tab: Hashable>: ObservableObject {
-    @Published var selectedTab: Tab
+    @Published public var selectedTab: Tab
 
     public init(initialTab: Tab) {
         self.selectedTab = initialTab
