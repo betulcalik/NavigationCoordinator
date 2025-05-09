@@ -119,7 +119,7 @@ struct HomeCoordinatorView: View {
 
 To switch between tabs programmatically:
 ```swift
-appCoordinator.switchTab(to: .profile)
+coordinator.appCoordinator?.switchTab(to: .profile)
 ```
 
 ### 2) In Tab Navigation
